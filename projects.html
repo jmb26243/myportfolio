@@ -1,10 +1,10 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Joseph Bradley's programming, AI research, and career research projects.">
+    <meta name="description" content="Explore Joseph Bradley's programming, AI application development, UX, and career research projects.">
 
     <title>Projects | Joseph Bradley</title>
 
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="projects.html">Projects</a>
+                        <a class="nav-link active" href="projects.html" aria-current="page">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="resume.html">Résumé</a>
@@ -60,8 +60,9 @@
             </h1>
 
             <p class="projects-hero-text">
-                A collection of programming, research, and design
-                projects that reflect what I'm learning and building.
+                A collection of programming, application development,
+                research, and design projects that reflect what I'm
+                learning and building.
             </p>
         </div>
     </header>
@@ -75,6 +76,7 @@
                 <a href="#calculator">01 / OOP Calculator ↘</a>
                 <a href="#prompt-lab">02 / AI Prompt Lab ↘</a>
                 <a href="#careerpath">03 / CareerPath ↘</a>
+                <a href="#group-project">04 / Group Project ↘</a>
             </div>
         </div>
     </section>
@@ -89,12 +91,12 @@
                     <h2>OOP Calculator</h2>
                     <p class="case-study-subtitle">
                         Building a calculator through object-oriented
-                        programming and software testing.
+                        programming, calculation history, and software testing.
                     </p>
                 </div>
 
                 <span class="status-label status-complete">
-                    Programming project
+                    Individual project
                 </span>
             </div>
 
@@ -131,9 +133,10 @@
                         </p>
 
                         <p>
-                            I also worked with automated tests to check
-                            the calculator's behavior and improve
-                            reliability.
+                            I also wrote automated tests to check
+                            calculations, history behavior, and command-line
+                            functionality while improving the reliability
+                            of the application.
                         </p>
                     </div>
                 </div>
@@ -156,7 +159,7 @@
                             <li>Implemented calculation history.</li>
                             <li>Created a command-line interface.</li>
                             <li>Added input validation and error handling.</li>
-                            <li>Used automated tests to check behavior.</li>
+                            <li>Used automated tests to check application behavior.</li>
                         </ul>
                     </div>
 
@@ -166,8 +169,8 @@
                             This project helped me understand how
                             object-oriented programming can organize
                             larger programs. I also gained experience
-                            debugging, writing tests, and using GitHub
-                            throughout development.
+                            debugging, writing tests, handling errors,
+                            and using GitHub throughout development.
                         </p>
                     </div>
                 </div>
@@ -177,9 +180,15 @@
             <div class="case-study-links">
                 <div>
                     <span class="case-link-label">SOURCE CODE</span>
-                    <p>My calculator repository link will be added here.</p>
+                    <p>Explore the source code and project development.</p>
                 </div>
-                <span class="link-pending">Repository link pending</span>
+
+                <div class="case-actions">
+                    <a href="https://github.com/jmb26243/my-oop-calculator"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub Repository ↗
+                    </a>
+                </div>
             </div>
 
         </div>
@@ -191,25 +200,25 @@
 
             <div class="case-study-top">
                 <div>
-                    <p class="eyebrow">02 / AI RESEARCH & APPLICATION CONCEPT</p>
+                    <p class="eyebrow">02 / INDIVIDUAL AI APPLICATION PROJECT</p>
                     <h2>AI Prompt Lab</h2>
                     <p class="case-study-subtitle">
-                        Exploring prompt engineering, experimentation,
-                        and evaluation with generative AI.
+                        Developing a student-focused application for
+                        experimenting with prompts and evaluating AI responses.
                     </p>
                 </div>
 
-                <span class="status-label status-research">
-                    Research website published
+                <span class="status-label status-complete">
+                    First working slice completed
                 </span>
             </div>
 
             <div class="case-study-visual ai-case-visual">
                 <span class="case-visual-main">AI<span>.</span></span>
                 <div>
-                    <span>PROMPT ENGINEERING</span>
-                    <span>EXPERIMENTATION</span>
-                    <span>EVALUATION</span>
+                    <span>PROMPT EXPERIMENTATION</span>
+                    <span>RESPONSE EVALUATION</span>
+                    <span>PYTHON / FLASK</span>
                 </div>
             </div>
 
@@ -221,61 +230,80 @@
                         <p>
                             Generative AI tools can produce different
                             results depending on how a prompt is written.
-                            This project explores how students and
-                            beginners can experiment with prompts,
-                            evaluate responses, and learn from their
-                            results.
+                            Students and beginners may benefit from a
+                            structured way to experiment with prompts,
+                            evaluate generated responses, and learn
+                            from their results.
                         </p>
                     </div>
 
                     <div class="case-section">
                         <h3>02. My Approach</h3>
                         <p>
-                            I developed a research website to document
-                            the project concept, investigate prompting
-                            practices, compare technical approaches,
-                            and outline a proposed application.
+                            I began by developing a research website
+                            to investigate prompt engineering practices,
+                            identify user needs, compare possible
+                            technical approaches, and plan the application.
                         </p>
 
                         <p>
-                            The planned application would allow users
-                            to record prompts, save AI responses,
-                            evaluate results, and revisit previous
-                            experiments through a private dashboard.
+                            I then developed the first working application
+                            using Python and Flask. Users can create
+                            accounts, sign in, enter prompts and AI
+                            responses, evaluate results, and save experiments.
+                        </p>
+
+                        <p>
+                            The application currently accepts pasted AI
+                            responses rather than connecting to an external
+                            AI service.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="case-section">
-                        <h3>03. Research & Technology</h3>
+                        <h3>03. Technical Highlights</h3>
 
                         <div class="technology-list">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>Bootstrap</span>
                             <span>Python</span>
-                            <span>Flask — planned</span>
-                            <span>SQLite — planned</span>
+                            <span>Flask</span>
+                            <span>SQLite</span>
+                            <span>SQLAlchemy</span>
+                            <span>Flask-Login</span>
+                            <span>Bootstrap</span>
+                            <span>Pytest</span>
+                            <span>Strategy Pattern</span>
                         </div>
 
                         <ul class="case-bullets">
-                            <li>Researched prompt engineering practices.</li>
-                            <li>Compared potential evaluation approaches.</li>
-                            <li>Developed user stories and an architecture plan.</li>
-                            <li>Outlined authentication and private experiment storage.</li>
-                            <li>Published a multi-page research website.</li>
+                            <li>Implemented user registration and authentication.</li>
+                            <li>Added sign-in and sign-out functionality.</li>
+                            <li>Created an experiment submission workflow.</li>
+                            <li>Evaluated responses using relevance, clarity, and completeness scores.</li>
+                            <li>Calculated and stored an overall evaluation rating.</li>
+                            <li>Saved experiment records in an SQLite database.</li>
+                            <li>Compared a simple scoring function with the Strategy Pattern.</li>
+                            <li>Created automated tests for authentication, experiments, and evaluation.</li>
                         </ul>
                     </div>
 
                     <div class="case-section">
-                        <h3>04. What I'm Learning</h3>
+                        <h3>04. Testing & What I Learned</h3>
                         <p>
-                            This project is helping me connect research
-                            with software planning. I'm learning how
-                            design decisions, user needs, security,
-                            and technical architecture influence
-                            an application before implementation.
+                            The first working slice passed all 13 automated
+                            tests in the latest reported test run.
+                            I also manually verified account creation,
+                            sign-in, experiment submission, database
+                            storage, and sign-out.
+                        </p>
+
+                        <p>
+                            This project helped me connect user-centered
+                            planning with backend development. I gained
+                            experience working with authentication,
+                            databases, application architecture, design
+                            patterns, and automated testing.
                         </p>
                     </div>
                 </div>
@@ -285,18 +313,26 @@
             <div class="case-study-links">
                 <div>
                     <span class="case-link-label">EXPLORE THE PROJECT</span>
-                    <p>Visit the published research website and source repository.</p>
+                    <p>
+                        Explore the research behind the application
+                        and inspect its implementation.
+                    </p>
                 </div>
 
                 <div class="case-actions">
                     <a href="https://jmb26243.github.io/ai-prompt-lab-research/"
                        target="_blank" rel="noopener noreferrer">
-                        Live Website ↗
+                        Research Website ↗
                     </a>
 
                     <a href="https://github.com/jmb26243/ai-prompt-lab-research"
                        target="_blank" rel="noopener noreferrer">
-                        GitHub Repository ↗
+                        Research Repository ↗
+                    </a>
+
+                    <a href="https://github.com/jmb26243/working-ai-prompt-lab"
+                       target="_blank" rel="noopener noreferrer">
+                        Application Repository ↗
                     </a>
                 </div>
             </div>
@@ -310,7 +346,7 @@
 
             <div class="case-study-top">
                 <div>
-                    <p class="eyebrow">03 / CAREER & UX RESEARCH</p>
+                    <p class="eyebrow">03 / INDIVIDUAL CAREER & UX RESEARCH PROJECT</p>
                     <h2>CareerPath</h2>
                     <p class="case-study-subtitle">
                         Researching technology careers and presenting
@@ -357,8 +393,8 @@
                         </p>
 
                         <p>
-                            The website was organized around clear
-                            navigation and dedicated sections so
+                            I focused on clear navigation, consistent
+                            page layouts, and readable content so
                             visitors can explore the research.
                         </p>
                     </div>
@@ -380,6 +416,7 @@
                             <li>Created a multi-page research website.</li>
                             <li>Organized career information into sections.</li>
                             <li>Used consistent styling and navigation.</li>
+                            <li>Presented technology career information for exploration.</li>
                             <li>Published the website through GitHub Pages.</li>
                         </ul>
                     </div>
@@ -391,7 +428,7 @@
                             research into a website and presenting
                             information clearly. It also gave me
                             additional experience with HTML, CSS,
-                            Bootstrap, and website publishing.
+                            Bootstrap, website structure, and publishing.
                         </p>
                     </div>
                 </div>
@@ -415,6 +452,38 @@
                         GitHub Repository ↗
                     </a>
                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Group Project Placeholder -->
+    <section class="case-study case-study-alt section-padding" id="group-project">
+        <div class="container">
+
+            <div class="case-study-top">
+                <div>
+                    <p class="eyebrow">04 / GROUP PROJECT</p>
+                    <h2>Group Project</h2>
+                    <p class="case-study-subtitle">
+                        A collaborative project that will be documented
+                        as the work progresses during the course.
+                    </p>
+                </div>
+
+                <span class="status-label status-research">
+                    Not started yet
+                </span>
+            </div>
+
+            <div class="case-section">
+                <h3>Project details coming soon</h3>
+                <p>
+                    This section will be updated when the group project
+                    begins. It will document the application's purpose,
+                    the team's work, my individual responsibilities,
+                    and evidence of collaboration.
+                </p>
             </div>
 
         </div>
@@ -459,4 +528,4 @@
     <script src="js/script.js"></script>
 
 </body>
-</html>
+</html> 
