@@ -66,3 +66,16 @@ Two hypothetical reader personas were considered when designing the portfolio:
 **Audience decision:** The portfolio prioritizes Emily because it needs to communicate qualifications clearly to recruiters across several related career areas. Daniel remains an important secondary audience, particularly when reviewing UX projects and case studies.
 
 **Design implication:** Presentation Option A was selected because its structured layout, clear navigation, and scannable project sections make it easier for recruiters to locate important information. UX case studies and project details also provide additional depth for design-focused readers.
+
+
+## Career Direction
+
+**Primary direction: AI Engineering**
+
+AI Engineering is my current primary career direction because I have more familiarity with this field and would like to continue developing my knowledge and technical skills in it.
+
+**Secondary interest: Forward Deployed Engineering (FDE)**
+
+FDE also interests me because it combines technical problem-solving with applying technology to real-world organizational challenges. I would like to continue exploring this career path.
+
+**Next learning step:** Strengthen my AI engineering knowledge through hands-on projects, particularly building and evaluating AI-powered applications, while continuing to learn about the responsibilities and skills involved in FDE.
