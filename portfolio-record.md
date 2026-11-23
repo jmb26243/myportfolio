@@ -54,3 +54,15 @@ Both homepage options were tested using keyboard navigation and mobile-sized bro
 - Update the portfolio as group project work becomes available.
 
 This record will be updated as additional work, feedback, and verification are completed.
+
+
+## Reader Personas and Audience Selection
+
+Two hypothetical reader personas were considered when designing the portfolio:
+
+- **Primary audience — Emily Carter, Corporate Technology Recruiter:** Recruits for software development, AI-related, and UX-related positions. She needs to quickly evaluate candidates' education, technical and design skills, practical projects, and professional qualifications.
+- **Secondary audience — Daniel Brooks, UX Design Hiring Manager:** Focuses on candidates' user-centered design process, research, prototyping, usability considerations, and design decisions.
+
+**Audience decision:** The portfolio prioritizes Emily because it needs to communicate qualifications clearly to recruiters across several related career areas. Daniel remains an important secondary audience, particularly when reviewing UX projects and case studies.
+
+**Design implication:** Presentation Option A was selected because its structured layout, clear navigation, and scannable project sections make it easier for recruiters to locate important information. UX case studies and project details also provide additional depth for design-focused readers.
